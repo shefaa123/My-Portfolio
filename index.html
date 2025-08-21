@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+  <h1>My Portfolio-shefaa</h1>
+  <nav>
+      <a href="" target="_blank" rel="noopener">About</a>
+      <a href="" target="_blank" rel="noopener">Projects</a>
+       <a href="" target="_blank" rel="noopener">Contact</a>
+  </nav>
+   </header>
+
+
+
+
+  <section id="about" >
+  <img src="unnamed.png" >
+  <div>
+    <h2>About Me</h2>
+    <p>Hello, my name is Shefaa. I am an AI student interested in web development.</p>
+    <p>Connect with me on 
+      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>.
+    </p>
+  </div>
+</section>
+
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Smart Essay Grading System with ML</h3>
+      <img src="1.png" alt="Project One">
+      <p>This project aims to develop an automated system for correcting and evaluating English essays using Machine Learning (ML) and Natural Language Processing (NLP) techniques. The system addresses challenges in traditional essay assessment, such as subjectivity, time consumption, and inconsistencies in grading. By leveraging advanced text analysis algorithms, it will provide reliable, objective, and standardized evaluations of student essays.</p>
+      <a href="#">View</a>
+    </div>
+    
+    <div class="card">
+      <h3>Jordan Tourism Website</h3>
+      <img src="3.png" alt="Jordan Tourism Website">
+      <p>This project is a website dedicated to promoting tourism in Jordan. It provides information about tourist destinations, cultural landmarks, and travel guides. Users can explore cities, historical sites, and plan their trips with interactive maps and suggested itineraries.</p>
+      <a href="#">View</a>
+    </div>
+    
+    <div class="card">
+      <h3>Student Registration Page</h3>
+      <img src="4.png" alt="Student Registration Page">
+      <p>This project is a simple web page for registering student information. It allows users to input and save student details such as name, age, class, and contact information. The page is designed to be user-friendly and helps in maintaining a structured database of student records.</p>
+      <a href="#">View</a>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required minlength="2" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="website">Website</label>
+        <input type="url" id="website" name="website" placeholder="https://">
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" pattern="\+962[0-9]{8}" placeholder="+962XXXXXXXX">
+
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+          <option value="">--Select a topic--</option>
+          <option>UI/UX Design</option>
+          <option>Frontend</option>
+          <option>Full-Stack</option>
+        </select>
+
+       
+
+        <label for="meeting">Meeting Time</label>
+        <input type="datetime-local" id="meeting" name="meeting">
+
+        <label for="services">Services</label>
+        <input list="service-list" id="services" name="services">
+        <datalist id="service-list">
+          <option value="Consulting">
+          <option value="UI/UX">
+          <option value="Web Development">
+        </datalist>
+
+        <label for="files">Upload File</label>
+        <input type="file" id="files" name="files" multiple>
+
+        
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Tell me about your idea..."></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+
+  <footer>
+    <p>© 2025 My Portfolio</p>
+  </footer>
+
+</body>
+</html>
