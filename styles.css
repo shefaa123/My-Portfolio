@@ -100,7 +100,7 @@ section {
 .card a { 
     display: inline-block; 
     margin-top: 0.5em; 
-    background: #4da3ff; 
+    background: #537067; 
     color: #fff; 
     padding: 0.3em 0.6em; 
     border-radius: 4px; 
@@ -141,7 +141,7 @@ input, select, textarea, button {
 
 button { 
     grid-column: 1 / -1; 
-    background: #4da3ff; 
+    background: #4d6d4d; 
     cursor: pointer; 
 }
 
